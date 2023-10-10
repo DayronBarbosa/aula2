@@ -1,0 +1,8 @@
+letra = str(input("Digite F para Feminino ou M para Masculino: ")).upper()
+
+if letra == "F":
+    print("Seu sexo é Feminino!")
+elif letra == "M":
+    print("Seu sexo é Masculino")
+else:
+    print("vocé digitou uma letra inválida.")

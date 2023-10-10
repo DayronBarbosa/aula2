@@ -1,0 +1,10 @@
+cor = input("Digite uma cor: ").lower().strip() #lower deixar o texto menusculo. #strip tira o espaço antes e no final do texto.
+
+if cor == "verde":
+    print ("Pode passar!")
+elif cor == "amarelo":
+    print ("Mantenha a Atenção!")
+elif cor == "vermelho":
+    print("Pare!")
+else:
+    print("Cor inválida.")
